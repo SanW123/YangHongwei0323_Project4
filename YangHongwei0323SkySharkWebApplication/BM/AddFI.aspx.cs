@@ -44,8 +44,8 @@ namespace YangHongwei0323SkySharkWebApplication.BM
             {
                 deptime = Convert.ToDateTime(txtDeparture.Text).TimeOfDay;
                 arrtime = Convert.ToDateTime(txtArrival.Text).TimeOfDay;
-                DepDateTime = Calendar1.SelectedDate.ToShortDateString() + "" + deptime.ToString();
-                ArrDateTime = Calendar2.SelectedDate.ToShortDateString() + "" + arrtime.ToString();
+                DepDateTime = Calendar1.SelectedDate.ToShortDateString() + " " + deptime.ToString();
+                ArrDateTime = Calendar2.SelectedDate.ToShortDateString() + " " + arrtime.ToString();
                 if (deptime > arrtime)
                 {
                     lblMessage.Text = "Departure Time cant be greater than or equal to arrival time";

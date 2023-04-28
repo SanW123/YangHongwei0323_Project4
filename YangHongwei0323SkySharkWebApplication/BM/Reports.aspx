@@ -46,7 +46,7 @@
                         <asp:Label ID="Label2" runat="server" Text="Generate a Flight usage report for all flights flown by airline"></asp:Label>
                     </td>
                     <td>
-                        <asp:Button ID="Button1" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate" />
+                        <asp:Button ID="Button1" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate Flight Usage Report" OnClick="Button1_Click" />
                     </td>
                     <td></td>
                 </tr>
@@ -55,7 +55,7 @@
                         <asp:Label ID="Label3" runat="server" Text="Generate a customer affinity report for top 100 customers"></asp:Label>
                      </td>
                     <td>
-                        <asp:Button ID="Button2" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate" />
+                        <asp:Button ID="Button2" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate customer Affinity Report" OnClick="Button2_Click" />
                      </td>
                     <td></td>
                 </tr>
@@ -88,7 +88,7 @@
                         </asp:ListBox>
                      </td>
                     <td>
-                        <asp:Button ID="Button3" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate" />
+                        <asp:Button ID="Button3" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate Revenue Report" OnClick="Button3_Click" />
                          
                         </td>
                     <td></td>
